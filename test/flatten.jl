@@ -1,7 +1,7 @@
 
 using JSON, DataFrames, JSON2DataFrame, Test
 
-data = JSON.parsefile("test/data/colbase-0.json")
+data = JSON.parsefile("data/colbase-0.json")
 data = data["results"]["bindings"]
 
 d = deepcopy(data)
