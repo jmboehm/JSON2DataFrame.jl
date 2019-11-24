@@ -1,5 +1,5 @@
 
-using JSON, DataFrames, JSON2DF, Test
+using JSON, DataFrames, JSON2DataFrame, Test
 
 data = JSON.parsefile("test/data/colbase-0.json")
 data = data["results"]["bindings"]
